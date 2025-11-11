@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 1st Workshop for Green AI Application &<br/>6th Workshop for Next-Generation Software Ecosystems
+title: 1st Workshop for Green AI Application & 6th Workshop for Next-Generation Software Ecosystems
 description: |-
   Dec. 4-5, 2025<br/>
   @ Nara Institute of Science and Technology (NAIST) + Online
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0
+repository: NAIST-SE/HP_Workshop_GAIA_ECO
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme

@@ -3,9 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: "1st Workshop for Green AI Application &<br/>6th Workshop for Next-Generation Software Ecosystems"
 ---
-
-# 1st Workshop for Green AI Application &<br/>6th Workshop for Next-Generation Software Ecosystems
 
 ### 1st Workshop for Green AI Application (GAIA Workshop)
 
