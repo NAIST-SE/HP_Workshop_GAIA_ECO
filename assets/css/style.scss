@@ -3,6 +3,10 @@
 ---
 @import "{{ site.theme }}";
 
+.page-header .btn {
+  display: none;
+}
+
 .main-content h1 {
   margin-top: 8rem;
 }
