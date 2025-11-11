@@ -3,8 +3,12 @@
 ---
 @import "{{ site.theme }}";
 
-.page-header .btn {
-  display: none;
+.page-header>.project-tagline {
+  display:none;
+}
+
+.page-header>a.btn {
+  display:none;
 }
 
 .main-content h1 {
