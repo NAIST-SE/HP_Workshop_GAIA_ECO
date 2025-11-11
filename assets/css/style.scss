@@ -1,0 +1,12 @@
+---
+# Import the default Cayman styles first.
+---
+@import "{{ site.theme }}";
+
+.main-content h1 {
+  margin-top: 8rem;
+}
+
+.site-footer {
+  display: none;
+}
