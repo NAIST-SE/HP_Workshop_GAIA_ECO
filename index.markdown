@@ -5,6 +5,8 @@
 layout: default
 ---
 
+# 1st Workshop for Green AI Application &<br/>6th Workshop for Next-Generation Software Ecosystems
+
 ### 1st Workshop for Green AI Application (GAIA Workshop)
 
 The GAIA Workshop serves as the official final report session for the JST Young Researcher Exchange Program “NEXUS,” which ran from August through December 2025.
