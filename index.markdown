@@ -33,19 +33,24 @@ By co-locating both events, we aim to foster deeper exchanges of ideas across in
 
 <style>
   .program-table {
-    --extra-width: 50%;
-    min-width: calc(100% + var(--extra-width));
     font-size: 1rem;
-    margin-inline: calc(var(--extra-width) * (-0.5));
   }
 
-  .cell-time {
-    width: 135px;
-    text-align: center;
-  }
+  @media not print {
+    .program-table {
+       --extra-width: 50%;
+      min-width: calc(100% + var(--extra-width));
+      margin-inline: calc(var(--extra-width) * (-0.5));
+    }
 
-  .cell-session {
-    width: 140px;
+    .cell-time {
+      width: 135px;
+      text-align: center;
+    }
+
+    .cell-session {
+      width: 140px;
+    }
   }
 </style>
 
