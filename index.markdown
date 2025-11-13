@@ -102,9 +102,9 @@ By co-locating both events, we aim to foster deeper exchanges of ideas across in
   </tr>
   <tr>
     <td class="cell-presentation">
-      <b>"From Avatar Embodiment to an Apparition: Mapping the Temporal Dynamics of Self-Consciousness"</b>
+      <b>"Do Emojis in README or Description Indicate Political or Activist Affiliation in Open Source Repositories?"</b>
       <br/>
-      <u>Anji Fujiwara</u> <small>(National Institute of Technology (KOSEN), Nara College)</small>
+      <u>Amri Zadi Hudaya</u> <small>(Universitas Muhammadiyah Surakarta)</small>, Youmei Fan <small>(Nara Institute of Science and Technology)</small>, Raula Gaikovina Kula <small>(The University of Osaka)</small>
     </td>
   </tr>
   <tr>
@@ -179,9 +179,9 @@ By co-locating both events, we aim to foster deeper exchanges of ideas across in
     <td class="cell-time" rowspan="3">9:30 ~ 10:30</td>
     <td class="cell-session" rowspan="3">GAIA</td>
     <td class="cell-presentation">
-      <b>"Do Emojis in README or Description Indicate Political or Activist Affiliation in Open Source Repositories?"</b>
+      <b>"Title"</b>
       <br/>
-      <u>Amri Zadi Hudaya</u> <small>(Universitas Muhammadiyah Surakarta)</small>, Youmei Fan <small>(Nara Institute of Science and Technology)</small>, Raula Gaikovina Kula <small>(The University of Osaka)</small>
+      <u>Keisha Jenny</u> <small>(Universitas Muhammadiyah Surakarta)</small>
     </td>
   </tr>
   <tr>
@@ -193,9 +193,9 @@ By co-locating both events, we aim to foster deeper exchanges of ideas across in
   </tr>
   <tr>
     <td class="cell-presentation">
-      <b>"Title"</b>
+      <b>"From Avatar Embodiment to an Apparition: Mapping the Temporal Dynamics of Self-Consciousness"</b>
       <br/>
-      <u>Keisha Jenny</u> <small>(Universitas Muhammadiyah Surakarta)</small>
+      <u>Anji Fujiwara</u> <small>(National Institute of Technology (KOSEN), Nara College)</small>
     </td>
   </tr>
   <tr>
