@@ -11,6 +11,81 @@
   margin-top: 8rem;
 }
 
+.program-page {
+  font-size: 0.82rem;
+  line-height: 1.3;
+  padding: 0.75rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.program-page h1 {
+  margin: 0 0 0.75rem;
+  font-size: 1.6rem;
+}
+
+.program-page h2 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.program-page .program-table {
+  font-size: 0.82em;
+  border-collapse: collapse;
+}
+
+.program-page .program-table th,
+.program-page .program-table td {
+  padding: 0.2rem 0.45rem;
+}
+
+.program-page .cell-time {
+  width: 110px;
+}
+
+.program-page .cell-session {
+  width: 120px;
+}
+
+.program-page .cell-break,
+.program-page .cell-presentation {
+  line-height: 1.25;
+}
+
+.program-page hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+@media print {
+  .program-page {
+    font-size: 0.68rem;
+    padding: 0;
+  }
+
+  .program-page h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .program-page h2 {
+    font-size: 1rem;
+    margin: 0.35rem 0;
+  }
+
+  .program-page .program-table th,
+  .program-page .program-table td {
+    padding: 0.15rem 0.3rem;
+  }
+
+  .program-page hr {
+    break-after: page;
+    border: none;
+    margin: 0;
+  }
+}
+
 .site-footer {
   display: none;
 }
