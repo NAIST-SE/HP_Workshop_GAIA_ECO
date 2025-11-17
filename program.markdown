@@ -8,6 +8,8 @@ permalink: /program/
 
 <h1>Program</h1>
 
+<p><em>All times follow Japan Standard Time (JST).</em></p>
+
 <h2>12/04</h2>
 
 {% include program-1204.html %}

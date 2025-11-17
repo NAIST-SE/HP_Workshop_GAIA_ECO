@@ -29,6 +29,8 @@ By co-locating both events, we aim to foster deeper exchanges of ideas across in
 
 # Program
 
+_All times follow Japan Standard Time (JST)._
+
 ## 12/04
 
 {% include program-1204.html table_class="program-table program-table--wide" %}
