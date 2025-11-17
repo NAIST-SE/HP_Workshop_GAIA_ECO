@@ -14,3 +14,62 @@
 .site-footer {
   display: none;
 }
+
+/* Program tables */
+.program-table {
+  font-size: 1rem;
+  width: 100%;
+}
+
+@media not print {
+  .program-table--wide {
+    --extra-width: 50%;
+    min-width: calc(100% + var(--extra-width));
+    margin-inline: calc(var(--extra-width) * (-0.5));
+  }
+
+  .cell-time {
+    width: 135px;
+    text-align: center;
+  }
+
+  .cell-session {
+    width: 140px;
+  }
+}
+
+/* Organizing committee cards */
+.committee-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.committee-card {
+  flex: 1 1 200px;
+  max-width: 260px;
+  text-align: center;
+}
+
+.committee-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.committee-card .name {
+  font-weight: 600;
+  margin-top: 0.75rem;
+  color: #159957;
+}
+
+.committee-card .affiliation {
+  font-size: 0.95rem;
+  color: #505050;
+}
+
+.online-note {
+  color: darkgray;
+}

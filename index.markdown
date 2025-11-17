@@ -29,41 +29,16 @@ By co-locating both events, we aim to foster deeper exchanges of ideas across in
 
 # Program
 
-| Time | Session | Details |
-| :-- | :-- | :-- |
-| TBD | TBD | TBD |
+## 12/04
+
+{% include program-1204.html table_class="program-table program-table--wide" %}
+
+## 12/05
+
+{% include program-1205.html table_class="program-table program-table--wide" %}
 
 
 # Organizing Committee
-
-<style>
-.committee-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
-.committee-card {
-  flex: 1 1 200px;
-  max-width: 260px;
-  text-align: center;
-}
-.committee-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-.committee-card .name {
-  font-weight: 600;
-  margin-top: 0.75rem;
-  color: #159957;
-}
-.committee-card .affiliation {
-  font-size: 0.95rem;
-  color: #505050;
-}
-</style>
 
 <div class="committee-grid">
   <div class="committee-card">
@@ -89,7 +64,7 @@ Lecture Room L2, Information Science Complex
 **Nara Institute of Science and Technology (NAIST)**\
 8916-5 Takayama-cho, Ikoma, Nara 630-0192 Japan
 
-<span style="color: darkgray;">*Online participation available; online access details will be emailed to registered attendees.*</span>
+<span class="online-note">*Online participation available; online access details will be emailed to registered attendees.*</span>
 
 ### Access to NAIST
 
