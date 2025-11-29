@@ -91,18 +91,6 @@ body {
   margin: 1rem 0;
 }
 
-@media not print {
-  .program-page {
-    overflow-x: auto;
-  }
-
-  .program-page .program-table {
-    width: 960px;
-    max-width: none;
-    table-layout: fixed;
-  }
-}
-
 @media print {
   .program-page {
     font-size: 0.68rem;
@@ -142,11 +130,15 @@ body {
 }
 
 @media not print {
-  .program-table--wide {
+  .table-wrapper {
     width: 100%;
-    overflow-x: auto;
+    overflow-x: scroll;
   }
 
+  .main-content .program-table--wide {
+    width: 200%;
+    word-break: normal;
+  }
 
   .program-table--wide tbody {
     --extra-width: 50%;

@@ -1,113 +1,115 @@
-<table class="{{ include.table_class | default: 'program-table' }}">
-  <caption class="sr-only">Program schedule for December 4</caption>
-  <tr>
-    <th scope="col">Time</th>
-    <th scope="col">Session</th>
-    <th scope="col">Detail</th>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="row">13:05 ~ 13:15</td>
-    <td class="cell-break" colspan="2">Opening Session</td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="rowgroup" rowspan="2">13:15 ~ 14:15</td>
-    <td class="cell-session" rowspan="2">Keynote Speech (GAIA)</td>
-    <td class="cell-presentation">
-      <b>"Green AI for Next-Generation Software Ecosystems: Insights from Code Search, Documentation, and Security Automation."</b>
-      <br/>
-      <u>Yusuf Sulistyo Nugroho</u> <small>(Universitas Muhammadiyah Surakarta)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-presentation">
-      <b>"Data anonymization and Privacy-preserving algorithms in transaction databases"</b>
-      <br/>
-      <u>Dedi Gunawan</u> <small>(Universitas Muhammadiyah Surakarta)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="row">14:15 ~ 14:30</td>
-    <td class="cell-break" colspan="2">Coffee Break</td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="rowgroup" rowspan="3">14:30 ~ 15:30</td>
-    <td class="cell-session" rowspan="3">GAIA</td>
-    <td class="cell-presentation">
-      <b>"Do LLMs Need Type Annotations?"</b>
-      <br/>
-      <u>Kazuma Yamasaki</u>, Kazumasa Shimari, Kenichi Matsumoto <small>(Nara Institute of Science and Technology)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-presentation">
-      <b>"Title"</b>
-      <br/>
-      <u>Fan Youmei</u> <small>(Nara Institute of Science and Technology)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-presentation">
-      <b>"Do Emojis in README or Description Indicate Political or Activist Affiliation in Open Source Repositories?"</b>
-      <br/>
-      <u>Amri Zadi Hudaya</u> <small>(Universitas Muhammadiyah Surakarta)</small>, Youmei Fan <small>(Nara Institute of Science and Technology)</small>, Raula Gaikovina Kula <small>(The University of Osaka)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="row">15:30 ~ 15:45</td>
-    <td class="cell-break" colspan="2">Coffee Break</td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="rowgroup" rowspan="3">15:45 ~ 16:45</td>
-    <td class="cell-session" rowspan="3">GAIA (Online)</td>
-    <td class="cell-presentation">
-      <b>"KEDAMA -Kitten Emulated Device by Adaptive Multimodal Actuation-"</b>
-      <br/>
-      <u>Kanami Senshu</u> <small>(Nara Women's University Secondary School)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-presentation">
-      <b>"Title"</b>
-      <br/>
-      <u>Huihui Huang</u> <small>(Singapore Management University)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-presentation">
-      <b>"Title"</b>
-      <br/>
-      <u>Junda He</u> <small>(Singapore Management University)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="row">16:45 ~ 17:00</td>
-    <td class="cell-break" colspan="2">Coffee Break</td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="rowgroup" rowspan="3">17:00 ~ 18:00</td>
-    <td class="cell-session" rowspan="3">ECO</td>
-    <td class="cell-presentation">
-      <b>"Low-Performance Code Detection based on code snippets for Loop Processing shared by Microbenchmark Service"</b>
-      <br/>
-      <u>Hayato Noguchi</u>, Tomoya Noguchi, Akinori Ihara <small>(Wakayama University)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-presentation">
-      <b>"Analyzing LLM Coverage for Pre-Generation Detection of Erroneous Code — An Exploratory Evaluation Based on Internal Behaviors of LLMs —"</b>
-      <br/>
-      <u>Taiki Wakamatsu</u>, Yuta Ishimoto <small>(Kyushu University)</small>，Hao Li <small>(Queen's University)</small>，Masanari Kondo <small>(Kyushu University)</small>，Ahmed. E. Hassan <small>(Queen's University)</small>，Yasutaka Kamei <small>(Kyushu University)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-presentation">
-      <b>"From Word to AsciiDoc: Evaluating the Impact on Software Design Documentation"</b>
-      <br/>
-      <u>Ryota Tsukamoto</u> <small>(Information Technology R&D Center, Mitsubishi Electric Corporation)</small>, Takashi Ishio <small>(School of Systems Information Science, Future University Hakodate)</small>
-    </td>
-  </tr>
-  <tr>
-    <td class="cell-time" scope="row">18:00 ~ 20:00</td>
-    <td class="cell-break" colspan="2">Reception @NAIST (Advance Registration Required)</td>
-  </tr>
-</table>
+<div class="table-wrapper">
+  <table class="{{ include.table_class | default: 'program-table' }}">
+    <caption class="sr-only">Program schedule for December 4</caption>
+    <tr>
+      <th scope="col">Time</th>
+      <th scope="col">Session</th>
+      <th scope="col">Detail</th>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="row">13:05 ~ 13:15</td>
+      <td class="cell-break" colspan="2">Opening Session</td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="rowgroup" rowspan="2">13:15 ~ 14:15</td>
+      <td class="cell-session" rowspan="2">Keynote Speech (GAIA)</td>
+      <td class="cell-presentation">
+        <b>"Green AI for Next-Generation Software Ecosystems: Insights from Code Search, Documentation, and Security Automation."</b>
+        <br/>
+        <u>Yusuf Sulistyo Nugroho</u> <small>(Universitas Muhammadiyah Surakarta)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-presentation">
+        <b>"Data anonymization and Privacy-preserving algorithms in transaction databases"</b>
+        <br/>
+        <u>Dedi Gunawan</u> <small>(Universitas Muhammadiyah Surakarta)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="row">14:15 ~ 14:30</td>
+      <td class="cell-break" colspan="2">Coffee Break</td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="rowgroup" rowspan="3">14:30 ~ 15:30</td>
+      <td class="cell-session" rowspan="3">GAIA</td>
+      <td class="cell-presentation">
+        <b>"Do LLMs Need Type Annotations?"</b>
+        <br/>
+        <u>Kazuma Yamasaki</u>, Kazumasa Shimari, Kenichi Matsumoto <small>(Nara Institute of Science and Technology)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-presentation">
+        <b>"Title"</b>
+        <br/>
+        <u>Fan Youmei</u> <small>(Nara Institute of Science and Technology)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-presentation">
+        <b>"Do Emojis in README or Description Indicate Political or Activist Affiliation in Open Source Repositories?"</b>
+        <br/>
+        <u>Amri Zadi Hudaya</u> <small>(Universitas Muhammadiyah Surakarta)</small>, Youmei Fan <small>(Nara Institute of Science and Technology)</small>, Raula Gaikovina Kula <small>(The University of Osaka)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="row">15:30 ~ 15:45</td>
+      <td class="cell-break" colspan="2">Coffee Break</td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="rowgroup" rowspan="3">15:45 ~ 16:45</td>
+      <td class="cell-session" rowspan="3">GAIA (Online)</td>
+      <td class="cell-presentation">
+        <b>"KEDAMA -Kitten Emulated Device by Adaptive Multimodal Actuation-"</b>
+        <br/>
+        <u>Kanami Senshu</u> <small>(Nara Women's University Secondary School)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-presentation">
+        <b>"Title"</b>
+        <br/>
+        <u>Huihui Huang</u> <small>(Singapore Management University)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-presentation">
+        <b>"Title"</b>
+        <br/>
+        <u>Junda He</u> <small>(Singapore Management University)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="row">16:45 ~ 17:00</td>
+      <td class="cell-break" colspan="2">Coffee Break</td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="rowgroup" rowspan="3">17:00 ~ 18:00</td>
+      <td class="cell-session" rowspan="3">ECO</td>
+      <td class="cell-presentation">
+        <b>"Low-Performance Code Detection based on code snippets for Loop Processing shared by Microbenchmark Service"</b>
+        <br/>
+        <u>Hayato Noguchi</u>, Tomoya Noguchi, Akinori Ihara <small>(Wakayama University)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-presentation">
+        <b>"Analyzing LLM Coverage for Pre-Generation Detection of Erroneous Code — An Exploratory Evaluation Based on Internal Behaviors of LLMs —"</b>
+        <br/>
+        <u>Taiki Wakamatsu</u>, Yuta Ishimoto <small>(Kyushu University)</small>，Hao Li <small>(Queen's University)</small>，Masanari Kondo <small>(Kyushu University)</small>，Ahmed. E. Hassan <small>(Queen's University)</small>，Yasutaka Kamei <small>(Kyushu University)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-presentation">
+        <b>"From Word to AsciiDoc: Evaluating the Impact on Software Design Documentation"</b>
+        <br/>
+        <u>Ryota Tsukamoto</u> <small>(Information Technology R&D Center, Mitsubishi Electric Corporation)</small>, Takashi Ishio <small>(School of Systems Information Science, Future University Hakodate)</small>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell-time" scope="row">18:00 ~ 20:00</td>
+      <td class="cell-break" colspan="2">Reception @NAIST (Advance Registration Required)</td>
+    </tr>
+  </table>
+</div>
