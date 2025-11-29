@@ -4,8 +4,10 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
+$base-font-family: 'Noto Sans JP', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
 body {
-  font-family: 'Noto Sans JP', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: $base-font-family;
 }
 
 .sr-only {
@@ -23,7 +25,7 @@ body {
 .main-content h1,
 .main-content h2,
 .main-content h3 {
-  font-family: 'Noto Sans JP', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: $base-font-family;
 }
 
 .page-header>a.btn {
