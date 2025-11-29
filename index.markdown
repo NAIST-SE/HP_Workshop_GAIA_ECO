@@ -39,8 +39,19 @@ _All times follow Japan Standard Time (JST)._
 
 {% include program-1205.html table_class="program-table program-table--wide" %}
 
+# Organization
 
-# Organizing Committee
+## Workshop Chair
+
+<div class="committee-grid">
+  <div class="committee-card">
+    <img src="assets/img/organizing_comittee/Kenichi_Matsumoto.jpg" alt="Portrait of Kenichi Matsumoto">
+    <div class="name">Kenichi Matsumoto</div>
+    <div class="affiliation">Nara Institute of Science and Technology</div>
+  </div>
+</div>
+
+## Organizing Committee
 
 <div class="committee-grid">
   <div class="committee-card">
