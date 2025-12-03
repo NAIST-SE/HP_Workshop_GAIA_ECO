@@ -89,6 +89,10 @@ Lecture Room L2, Information Science Complex
 ![campus map](assets/img/venue/campusmap.png)\
 <small>Source: [NAIST Campus Map](https://www.naist.jp/en/about_naist/other_information/campusmap/index.html)</small>
 
+### Access to the venue
+
+![venue to l2](assets/img/venue/venue_to_l2.png)
+
 <!-- ## Sponsors & Supporters
 
 Supported by the Digital Agency Japan, JST-Mirai Program, and the Green AI Industrial Consortium. Additional sponsorship tiers are available upon request. -->
