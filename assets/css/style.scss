@@ -92,24 +92,24 @@ body {
 }
 
 @media print {
+  body {
+    margin: 0 auto;
+  }
+
+  * {
+    color: #000 !important;
+  }
+
   .program-page {
-    font-size: 0.68rem;
     padding: 0;
   }
 
-  .program-page h1 {
-    font-size: 1.3rem;
-    margin-bottom: 0.4rem;
+  .program-page table {
+    font-size: 1em !important;
   }
 
-  .program-page h2 {
-    font-size: 1rem;
-    margin: 0.35rem 0;
-  }
-
-  .program-page .program-table th,
-  .program-page .program-table td {
-    padding: 0.15rem 0.3rem;
+  .program-table th, .program-table td {
+    border: 1px solid #888 !important;
   }
 
   .program-page hr {
